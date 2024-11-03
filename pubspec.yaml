@@ -1,0 +1,82 @@
+name: online_shopping
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# -------- PACKAGES -------- #
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
+  carousel_slider: ^5.0.0
+  readmore: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+
+# -------- DEV PACKAGES -------- #
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # -------- LOCAL ASSETS -------- #
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/on_boarding_images/
+    - assets/images/banners/
+    - assets/images/products/
+    - assets/images/brands/
+    - assets/images/user/
+    - assets/icons/payment_methods/
+
+  # -------- LOCAL FONTS -------- #
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica.ttf
+          weight: 400
+        - asset: assets/fonts/Helvetica-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Helvetica-BoldOblique.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Helvetica-Oblique.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/helvetica-light-587ebe5a59211.ttf
+          weight: 300
+        - asset: assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf
+          weight: 700
+
+flutter_native_splash:
+  color: "#FFFFFF" # Background color for light mode
+  color_dark: "#272727" # Background color for dark mode
+  image: assets/logos/baglogo.png # Path to the logo for the splash screen
+  image_dark: assets/logos/baglogoDark.png # Path to the logo for dark mode splash screen
+  android: true
+  ios: true
+
+  android_12:
+    color: "#FFFFFF" # Background color for Android 12 in light mode
+    color_dark: "#272727" # Background color for Android 12 in dark mode
+    image: assets/logos/baglogo.png
+    image_dark: assets/logos/baglogoDark.png
+
+  web: false # Disable web splash screen
