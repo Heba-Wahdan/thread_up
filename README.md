@@ -3,13 +3,13 @@
 
 Scroll through the screenshots to get a glimpse of ThreadUp!📲✨
 
-![App Screenshot 1](./ThreadUP/11.png)
-![App Screenshot 2](./ThreadUP/22.png)
-![App Screenshot 2](./ThreadUP/33.png)
-![App Screenshot 2](./ThreadUP/44.png)
-![App Screenshot 2](./ThreadUP/55.png)
-![App Screenshot 2](./ThreadUP/66.png)
-![App Screenshot 2](./ThreadUP/77.png)
+![App Screenshot 1](./ThreadUP/11.jpg)
+![App Screenshot 2](./ThreadUP/22.jpg)
+![App Screenshot 2](./ThreadUP/33.jpg)
+![App Screenshot 2](./ThreadUP/44.jpg)
+![App Screenshot 2](./ThreadUP/55.jpg)
+![App Screenshot 2](./ThreadUP/66.jpg)
+![App Screenshot 2](./ThreadUP/77.jpg)
 
 
 
